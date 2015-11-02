@@ -1,0 +1,23 @@
+<ion-view view-title="Account">
+  <ion-content>
+    <ion-list>
+      <ion-toggle  ng-model="settings.enableHandsFree">
+        Hands Free Mode
+      </ion-toggle>
+      <ion-toggle  ng-model="settingsone.vibration">
+        Vibration
+      </ion-toggle>
+      <ion-toggle  ng-model="settingstwo.sound">
+        Sound
+      </ion-toggle>
+    </ion-list>
+    <div class="item range">
+      <i class="icon ion-ios-bolt-outline"></i>
+      <input type="range" name="Sensitivity">
+      <i class="icon ion-ios-bolt"></i>
+    </div>
+    <div class="row responsive-sm">
+      <div class="button button-block button-assertive">About Us</div>
+    </div>
+  </ion-content>
+</ion-view>
